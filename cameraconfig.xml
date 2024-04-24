@@ -1,0 +1,16 @@
+<file>
+    <CameraConfig version="2">
+        <system color_backlight_compensation="-1" color_brightness="-1" color_contrast="-1" color_exposure_time="-1" color_gain="-1" color_height="720" color_powerline_frequency="-1" color_saturation="-1" color_sharpness="-1" color_whitebalance="-1" colormaster="1" depth_height="576" fps="15" sync_master_serial="" />
+        <postprocessing greenscreenremoval="0" height_max="2.5" height_min="0.1">
+            <depthfilterparameters depth_x_erosion="3" depth_y_erosion="3" do_threshold="1" threshold_far="1.8" threshold_near="0.2" />
+        </postprocessing>
+        <camera serial="000225515112" type="kinect">
+            <trafo>
+                <values v00="1.0" v01="0.0" v02="0.0" v03="0.0" 
+                    v10="0.0" v11="1.0" v12="0.0" v13="0.0" 
+                    v20="0.0" v21="0.0" v22="1.0" v23="0.0" 
+                    v30="0.0" v31="0.0" v32="0.0" v33="1.0" />
+            </trafo>
+        </camera>
+    </CameraConfig>
+</file>

@@ -1,0 +1,77 @@
+{
+	"appTargetFPS": 90,
+	"nonHMDHeight": 1.5,
+  "Stats":{
+    "statsInterval": 1,
+    "statsOutputFile":  "",
+    "HMDProfiling": false
+  }, 
+  "MCUSetup":{
+    "useMCU": false,
+    "decodersMCU": 3
+  },
+  "WebCam": {
+    "codec": "h264",
+    "gpu": false,
+    "fps": 15,
+    "gop": 15,
+    "crf": 27
+  },
+  "PCs": {
+    "configFilename": "./cameraconfig.xml",
+    "prerecordedFolder": "../loot30K",
+    "syntheticNumPoints": 10000,
+    "numEncoders": 1,
+    "numDecoders": 1,
+    "Self": {      
+      "voxelSize": 0.00,
+      "frameRate": 15,
+      "octreeBits": 9
+    },
+    "Render": {
+      "forceMesh": false,
+      "defaultCellSize": 0.0025,
+      "cellSizeFactor": 1
+    }
+  },
+  "RGBPMs": {
+    "codec": "h265",
+    "gpu": true,
+    "multiplexed": true,
+    "fps": 15,
+    "bitrate": 50000000,
+    "gop": 15,
+    "crfCol": 17,
+    "crfPos": 17,
+    "_commentPixFormat": "0 = YUV444p, 1 = YUV420p",
+    "pixFormat": 0,
+    "_commentEncMethod": "0 = CRF, 1 = QP, 2 = FIXED_BIRTATE",
+    "encMethod": 0,
+    "Render": {
+      "cellSize": 0.0025
+    }
+  },
+  "Bin2Dash": {
+    "segmentSize": 2000,
+    "segmentLife": 10000
+  },
+  "Managers": {
+    "userManager": "https://holoconftest.i2cat.net:4949",
+    "clockManager": "https://holoconftest.i2cat.net:4949",
+    "sessionManager": "https://holoconftest.i2cat.net:4949",
+    "eventManager": "https://holoconftest.i2cat.net:4949",
+    "mediaManager": "https://holoconftest.i2cat.net:4949",
+    "mediaManager_": "http://127.0.0.1:4953",
+    "metricsManager": "http://84.88.36.170:4949",
+    "serviceManager": "http://84.88.36.170:4949"
+  },
+  "WebRTC": {
+    "signaler": "wss://holoconf.i2cat.net:4443",
+    "signalerMCU": "http://84.88.32.97:4951",
+    "IceServer": { 
+      "url": "turn:84.88.32.97:3478",
+      "user" : "i2catmia", 
+      "password" : "bar" 
+    }
+  }
+}

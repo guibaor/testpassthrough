@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.i2cat.holomit": "git@gitlab.i2cat.net:areas/mia/holomit/holomit-sdk.git",
     "com.meta.xr.sdk.all": "64.0.0",
     "com.meta.xr.simulator": "64.0.0",
     "com.unity.collab-proxy": "2.3.1",
