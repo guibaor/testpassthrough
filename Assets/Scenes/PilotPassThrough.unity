@@ -783,10 +783,10 @@ MonoBehaviour:
   useMorePrefabs: 0
   PlayerPrefabRemote: {fileID: 0}
   PlayerLocations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1259754331}
+  - {fileID: 1183584162}
+  - {fileID: 958913206}
+  - {fileID: 1827223706}
   NonPlayersLocation: {fileID: 0}
   AutoSpawnOnLocation: 1
   AllUsers: []

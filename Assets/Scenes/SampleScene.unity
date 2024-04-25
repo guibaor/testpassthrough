@@ -2809,7 +2809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &165171255
 Transform:
   m_ObjectHideFlags: 0
@@ -22608,7 +22608,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1175135419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 728799571, guid: 1dd319a9021403d4d8fb14e1ba7fd06a, type: 3}
+  m_Script: {fileID: 11500000, guid: 960a545a9a4e6e54bb6b06a0452f281b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cameraReference: {fileID: 1359856426}
