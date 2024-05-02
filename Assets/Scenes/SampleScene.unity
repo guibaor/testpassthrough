@@ -41877,7 +41877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce8b5228304bb2449901193ad520d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: PilotPassThrough
+  sceneToLoad: PilotTest
   sessionPreFix: PassThrough_
   MenuFont: {fileID: 12800000, guid: b30c1f4e6a7dd054d9c16454a93655f7, type: 3}
   isMaster: 0
