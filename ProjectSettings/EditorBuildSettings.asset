@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PilotPassThrough.unity
     guid: 19f7d0cdfb05cf54f9eedb6dcf5528cb
+  - enabled: 1
+    path: Assets/Scenes/PilotTest.unity
+    guid: 17d5751174cee49479bd05b9ff2bcd36
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a78916f8a6a5db34cb6a5befa50b1947, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c81859b7d20a2af4ca46bd5ff28083bd, type: 2}
