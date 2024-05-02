@@ -35,16 +35,16 @@
     }
   },
   "RGBPMs": {
-    "codec": "h265",
-    "gpu": true,
+    "codec": "h264",
+    "gpu": false,
     "multiplexed": true,
     "fps": 15,
     "bitrate": 50000000,
-    "gop": 15,
+    "gop": 1,
     "crfCol": 17,
     "crfPos": 17,
     "_commentPixFormat": "0 = YUV444p, 1 = YUV420p",
-    "pixFormat": 0,
+    "pixFormat": 1,
     "_commentEncMethod": "0 = CRF, 1 = QP, 2 = FIXED_BIRTATE",
     "encMethod": 0,
     "Render": {
